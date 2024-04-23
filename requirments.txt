@@ -4,4 +4,4 @@ nltk
 PyPDF2
 langchain
 langchain_community
-dotenv
+python-dotenv
