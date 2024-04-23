@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+
 import streamlit as st
 import chromadb
 import re
@@ -21,7 +21,7 @@ path_to_save = r"Chroma DB"
 
 
 def main():
-    load_dotenv()
+  
     persist_directory ='db'
     st.set_page_config(page_title="Ask your PDF", page_icon="📄")
     logo = Image.open("MicrosoftTeams-image (1).png")
